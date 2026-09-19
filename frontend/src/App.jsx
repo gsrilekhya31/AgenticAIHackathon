@@ -41,7 +41,7 @@ function App() {
 
     try {
       const response = await fetch(
-        "http://127.0.0.1:8000/analyze",
+        "https://agenticaihackathon.onrender.com/analyze",
         {
           method: "POST",
           body: formData,
@@ -92,7 +92,7 @@ function App() {
 
     try {
       const response = await fetch(
-        "http://127.0.0.1:8000/apply-decisions",
+        "https://agenticaihackathon.onrender.com/apply-decisions",
         {
           method: "POST",
 
@@ -182,7 +182,7 @@ function App() {
 
     try {
       const response = await fetch(
-        `http://127.0.0.1:8000${endpoint}`,
+        `https://agenticaihackathon.onrender.com${endpoint}`,
         {
           method: "POST",
 
